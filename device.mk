@@ -88,3 +88,4 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/fogo/fogo-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
